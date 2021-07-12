@@ -1,0 +1,21 @@
+.navbar {
+    position: relative;
+    background-color: rgba(0,0,0,.5)!important;
+    transition: background 0.5s ease-in-out;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #252525!important;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .navbar{
+        background: #252525!important;
+    }
+}
+
+.nav-link {
+    color: rgba(255,255,255, .7)!important;
+}
