@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.8476abf3.chunk.css",
-    "main.js": "/static/js/main.1fff5365.chunk.js",
-    "main.js.map": "/static/js/main.1fff5365.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3400c52e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3400c52e.js.map",
+    "main.css": "/static/css/main.49e0baaa.chunk.css",
+    "main.js": "/static/js/main.90006210.chunk.js",
+    "main.js.map": "/static/js/main.90006210.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e24b343f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e24b343f.js.map",
     "static/css/2.0d41a248.chunk.css": "/static/css/2.0d41a248.chunk.css",
-    "static/js/2.1e08f4fc.chunk.js": "/static/js/2.1e08f4fc.chunk.js",
-    "static/js/2.1e08f4fc.chunk.js.map": "/static/js/2.1e08f4fc.chunk.js.map",
-    "static/js/3.3b2ed8f3.chunk.js": "/static/js/3.3b2ed8f3.chunk.js",
-    "static/js/3.3b2ed8f3.chunk.js.map": "/static/js/3.3b2ed8f3.chunk.js.map",
+    "static/js/2.07b2910a.chunk.js": "/static/js/2.07b2910a.chunk.js",
+    "static/js/2.07b2910a.chunk.js.map": "/static/js/2.07b2910a.chunk.js.map",
+    "static/js/3.167db096.chunk.js": "/static/js/3.167db096.chunk.js",
+    "static/js/3.167db096.chunk.js.map": "/static/js/3.167db096.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0d41a248.chunk.css.map": "/static/css/2.0d41a248.chunk.css.map",
-    "static/css/main.8476abf3.chunk.css.map": "/static/css/main.8476abf3.chunk.css.map",
-    "static/js/2.1e08f4fc.chunk.js.LICENSE.txt": "/static/js/2.1e08f4fc.chunk.js.LICENSE.txt",
+    "static/css/main.49e0baaa.chunk.css.map": "/static/css/main.49e0baaa.chunk.css.map",
+    "static/js/2.07b2910a.chunk.js.LICENSE.txt": "/static/js/2.07b2910a.chunk.js.LICENSE.txt",
     "static/media/View_CSS.css": "/static/media/code.52766a4b.jpg",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/About_CSS.css": "/static/media/mountain_man.997ee958.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3400c52e.js",
+    "static/js/runtime-main.e24b343f.js",
     "static/css/2.0d41a248.chunk.css",
-    "static/js/2.1e08f4fc.chunk.js",
-    "static/css/main.8476abf3.chunk.css",
-    "static/js/main.1fff5365.chunk.js"
+    "static/js/2.07b2910a.chunk.js",
+    "static/css/main.49e0baaa.chunk.css",
+    "static/js/main.90006210.chunk.js"
   ]
 }
