@@ -1,31 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Roboto&display=swap');
 
 
 @media (min-width: 1400px) {
-    .container {
+    .container, .container-xl {
         max-width: 1020px;
     }
 }
-@media (min-width: 1200px) {
-    .container { 
-        max-width: 1000px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        max-width:960px;
-    }
-}
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
 
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
+
+body {
+    background: #fff000;
 }
 
 .hero-wrap {
@@ -52,10 +36,7 @@
     z-index: 3;
 }
 
-.align-items-center {
-    -webkit-box-align: center!important;
-    align-items: center!important;
-}
+
 
 .col-lg {
     flex-shrink: 0;
@@ -151,4 +132,23 @@
     color:white;
     margin-right: 15px;
     
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.mono {
+    font-family: 'B612 Mono', monospace;
 }

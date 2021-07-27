@@ -1,49 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
 
-
-@media (min-width: 1400px) {
-    .container {
-        max-width: 1020px;
-    }
-}
-@media (min-width: 1200px) {
-    .container { 
-        max-width: 1000px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        max-width:960px;
-    }
-}
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 768px){
-    .col-md {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 50%;
-    }
-}
-
-@media (min-width: 1200px){
-    .g-xl-5 {
-        --bs-gutter-y: 3rem;
-        --bs-gutter-x: 3rem;
-    }
-}
-
 .ftco-section {
     padding: 8em 0;
     position: relative;
@@ -58,27 +14,6 @@
     margin-left: auto;
 }
 
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) / -2);
-    margin-left: calc(var(--bs-gutter-x) / -2);   
-}
-
-.align-items-center {
-    -webkit-box-align: center!important;
-    align-items: center!important;
-}
-
-.d-flex{
-    display: webkit-box!important;
-    display: ms-flexbox!important;
-    display: flex!important;
-}
-
 .img-about{
     background-image: url(../images/mountain_man.jpeg);
     height: 600px;
@@ -87,4 +22,125 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.img-about:before{
+    position: absolute;
+    bottom: 130px;
+    left: -30px;
+    width: 100%;
+    height: 100px;
+    content: '';
+    background: #5de4ff;
+    z-index: -1;
+}
+
+.img-about:after{
+    position: absolute;
+    bottom: 30px;
+    left: -30px;
+    width: 100%;
+    height: 100px;
+    content: '';
+    background: rgb(224, 0, 224);
+    z-index: -1;
+}
+
+.my-5 {
+    flex-wrap: nowrap;
+}
+
+.nav-item {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link {
+    color: black!important;
+    background: #fff;
+    margin-right: 10px;
+
+}
+
+.nav-item .nav-link.active{
+    color: white!important;
+    background: #296063;
+}
+
+.fade:not(.show){
+    display: none;
+}
+
+#py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+.progress {
+    height: 8px;
+}
+
+.progress-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.progress-bar{
+    background-color: #e04a63;
+}
+
+.nav .nav-pills{
+    position: fixed;
+
+}
+
+.resume-wrap span.date{
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+  
+
+}
+
+.resume-wrap span.position{
+    font-size: 13px;
+    font-weight: 500;
+    
+    color: #000
+}
+
+.resume-wrap {
+    padding: 0;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.resume-wrap h2{
+    font-size: 20px!important;
+    margin-bottom: 0;
+}
+
+.w-100 {
+    margin-left: 10px;
+}
+
+.w-100 p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.link {
+    margin-left: 5px;
+    color: #296063;
+}
+
+.btn-light {
+    position: absolute;
+    left: 40%;
+    background-color: #e04a63;
+    border-color: #e04a63;
+    color: white;
+    text-transform: uppercase;
+    
 }
